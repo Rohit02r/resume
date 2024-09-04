@@ -89,6 +89,14 @@ const Resume = () => {
                 </ul></p>
               <a href="https://rohit02r.github.io/ABCDdanceAcademy/" className="text-primary text-decoration-none">View Project</a>
             </div>
+            <div className="bg-secondarys p-4 rounded-lg shadow-md mb-4">
+              <h3 className="fs-5 fw-semibold">CRUD Operations with React</h3>
+              <p><ul>
+                <li>Implemented full CRUD operations using React.js with data from JSONPlaceholder.</li>
+                <li>Integrated Blueprint.js Toaster for dynamic feedback and notifications.</li>
+                </ul></p>
+              <a href="https://rohit02r.github.io/crud/" className="text-primary text-decoration-none">View Project</a>
+            </div>
           </div>
         </div>
 
