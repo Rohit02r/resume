@@ -15,6 +15,9 @@ const Resume = () => {
               <a href="mailto:rohit02r@gmail.com" className="text-primary text-decoration-none">rohit02r@gmail.com</a>
             </p>
             <p className="mt-2">
+              <a href="tel:+919360790829" className="text-primary text-decoration-none">9360790829</a>
+            </p>
+            <p className="mt-2">
               <a href="https://linkedin.com/in/rohit-r-089830250/" className="text-primary text-decoration-none me-4">
                 <FaLinkedin className="me-2" />
                 LinkedIn
@@ -27,36 +30,30 @@ const Resume = () => {
           </div>
         </div>
         
-       
         <div className="mt-5" data-aos="fade-up">
           <h2 className="display-6 fw-bold">Summary</h2>
           <p className="mt-3">
-                        Enthusiastic and dedicated Front End Developer
-                with a solid foundation in HTML, CSS, Bootstrap, JavaScript, and React.js.
-                Proficient in creating responsive, user-friendly web applications.
-                Good at building modern interfaces with a focus on usability.
-                Always eager to learn and apply new technologies.
-
-
-
-
+            Enthusiastic and dedicated Front End Developer
+            with a solid foundation in HTML, CSS, Bootstrap, JavaScript, and React.js.
+            Proficient in creating responsive, user-friendly web applications.
+            Good at building modern interfaces with a focus on usability.
+            Always eager to learn and apply new technologies.
           </p>
         </div>
 
-        
         <div className="mt-5" data-aos="fade-up">
           <h2 className="display-6 fw-bold">Technical Skills</h2>
           <div className="row row-cols-1 row-cols-sm-2 g-4 mt-3">
             <div className="col">
               <div className="bg-secondarys p-4 rounded shadow">
                 <h3 className="fs-5 fw-semibold">Programming Languages</h3>
-                <p>JavaScript, MySQL</p>
+                <p>JavaScript, MySQL, Java</p>
               </div>
             </div>
             <div className="col">
               <div className="bg-secondarys p-4 rounded shadow">
                 <h3 className="fs-5 fw-semibold">Front End</h3>
-                <p>HTML, CSS, Responsive Design, CRUD operations</p>
+                <p>HTML-5, CSS-3, Responsive Design</p>
               </div>
             </div>
             <div className="col">
@@ -68,33 +65,38 @@ const Resume = () => {
           </div>
         </div>
 
-        
         <div className="mt-5" data-aos="fade-up">
           <h2 className="display-6 fw-bold">Projects</h2>
           <div className="mt-3">
             <div className="bg-secondarys p-4 rounded shadow mb-4">
-              <h3 className="fs-5 fw-semibold">DJ Salon</h3><br/>
-              <p><ul>
-                <li>Developed and designed DJ Saloon website using React and Bootstrap, creating a modern and responsive user interface.</li><br/>
-                <li> Integrated various features including an appointment booking form, service listings, and product sections to enhance user engagement</li><br/>
-                <li>Utilized React components and Bootstrap styling to ensure a seamless and visually appealing experience across all devices</li><br/>
-                </ul></p>
-              <a href="https://rohit02r.github.io/djsalon/" className="text-primary text-decoration-none">View Project</a>
+              <h3 className="fs-5 fw-semibold">Todo App</h3><br/>
+              <p>
+                <ul>
+                  <li>Developed a dynamic task management application using React, Vite, and Redux, implementing CRUD operations for managing tasks efficiently.</li><br/>
+                  <li>Styled the application with Bootstrap for responsive design, enhancing the user experience with clean layouts and intuitive interfaces.</li><br/>
+                </ul>
+              </p>
+              <a href="https://rohit02r.github.io/redux-todo-app/" className="text-primary text-decoration-none">View Project</a>
             </div>
             <div className="bg-secondarys p-4 rounded shadow mb-4">
               <h3 className="fs-5 fw-semibold">ABCD Dance Academy</h3><br/>
-              <p><ul><li>Designed and developed the ABCD Dance Academy website using HTML, CSS, and Bootstrap, delivering a visually appealing and responsive design.</li><br/>
-                <li>Implemented interactive features and smooth animations with JavaScript to enhance user experience and engagement.</li><br/>
-                <li>Created a comprehensive site layout including class schedules, instructor profiles, and contact forms, ensuring optimal functionalityacross various devices.</li><br/>
-                </ul></p>
+              <p>
+                <ul>
+                  <li>Designed and developed the ABCD Dance Academy website using HTML, CSS, and Bootstrap, delivering a visually appealing and responsive design.</li><br/>
+                  <li>Implemented interactive features and smooth animations with JavaScript to enhance user experience and engagement.</li><br/>
+                  <li>Created a comprehensive site layout including class schedules, instructor profiles, and contact forms, ensuring optimal functionality across various devices.</li><br/>
+                </ul>
+              </p>
               <a href="https://rohit02r.github.io/ABCDdanceAcademy/" className="text-primary text-decoration-none">View Project</a>
             </div>
             <div className="bg-secondarys p-4 rounded-lg shadow-md mb-4">
               <h3 className="fs-5 fw-semibold">CRUD Operations with React</h3>
-              <p><ul>
-                <li>Implemented full CRUD operations using React.js with data from JSONPlaceholder.</li>
-                <li>Integrated Blueprint.js Toaster for dynamic feedback and notifications.</li>
-                </ul></p>
+              <p>
+                <ul>
+                  <li>Implemented full CRUD operations using React.js with data from JSONPlaceholder.</li>
+                  <li>Integrated Blueprint.js Toaster for dynamic feedback and notifications.</li>
+                </ul>
+              </p>
               <a href="https://rohit02r.github.io/crud/" className="text-primary text-decoration-none">View Project</a>
             </div>
           </div>
@@ -108,13 +110,11 @@ const Resume = () => {
           </p>
         </div>
 
-        
         <div className="mt-5" data-aos="fade-up">
           <h2 className="display-6 fw-bold">Certifications</h2>
           <p className="mt-3">FrontEnd Developer Course - Besant Technologies</p>
-          <p className="mt-3">React Basics - Coursera <a href="https://www.coursera.org/account/accomplishments/verify/S7DPZVXJ2JRD" className="text-primary text-decoration-none">view</a>
-          </p>
-          </div>
+          <p className="mt-3">React Basics - Coursera <a href="https://www.coursera.org/account/accomplishments/verify/S7DPZVXJ2JRD" className="text-primary text-decoration-none">view</a></p>
+        </div>
       </div>
     </div>
   );
