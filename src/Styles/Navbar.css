@@ -1,0 +1,133 @@
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 5px 15px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  position: relative; 
+}
+
+.nav-links a::after {
+  content: '';
+  display: block;
+  height: 2px; 
+  width: 0; 
+  background-color: blueviolet; 
+  transition: width 0.3s ease; 
+  position: absolute; 
+  left: 0;
+  bottom: -5px; 
+}
+
+.nav-links a:hover {
+  color: blueviolet; 
+}
+
+.nav-links a:hover::after {
+  width: 100%; 
+}
+
+/* General styling for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  color: white;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links ul li {
+  margin: 0 15px;
+}
+
+.nav-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  padding: 0 20px;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px 0;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .nav-links ul {
+    /* Initially hide the menu and set up for the collapse animation */
+    max-height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    left: 6px;
+    background-color: #333;
+    border-radius: 5px;
+    padding: 0; /* Reset padding initially */
+    width: 97%;
+    transition: max-height 0.3s ease; /* Animating the height */
+    z-index: 99;
+  }
+
+  /* When open, allow the menu to fully expand */
+  .nav-links.open ul {
+    max-height: 500px; /* Adjust based on content height */
+    padding: 20px; /* Add padding when expanded */
+  }
+
+  .nav-links ul li {
+    margin: 10px 0;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}

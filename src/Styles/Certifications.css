@@ -1,0 +1,59 @@
+.certifications {
+    padding: 0 10%;
+    text-align: left;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    
+  }
+  
+  .certifications h2 {
+    text-align: center;
+    color: blueviolet;
+    margin-bottom: 30px;
+  }
+  
+  .certification-list {
+    
+    list-style: none; 
+    padding: 3% 12%;
+    background-color: #2F3645;
+    border-radius: 10px;
+   
+  }
+  
+  .certification-item {
+    
+    margin: 15px 20px; 
+    font-size: 1.2rem; 
+    position: relative; 
+  }
+  
+  .view-link {
+    margin-left: 10px; 
+    color: #3498db; 
+    text-decoration: none; 
+    font-weight: bold; 
+  }
+  
+  .view-link:hover {
+    text-decoration: underline; 
+    color: #2980b9; 
+  }
+  @media (max-width:768px) {
+    .certification-list {
+    
+      list-style: none; 
+      padding: 3% 5%;
+      background-color: #2F3645;
+      border-radius: 10px;
+     
+    }
+    .certification-item {
+    
+      margin: 15px 20px; 
+      font-size: 1rem; 
+      position: relative; 
+    }
+    
+    
+  }

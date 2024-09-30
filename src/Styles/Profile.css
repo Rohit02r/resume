@@ -1,0 +1,32 @@
+.profile {
+    text-align: center;
+    margin-top: 50px;
+    border: black;
+   
+  }
+  
+  .profilep {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+
+  }
+  
+  .typed-text {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  .bt{
+    padding: 5px 20px 3px 20px;
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+    border-radius: 15px;
+    color: white;
+
+  }
+
+  .bt:hover{
+    background-color: rgb(108, 39, 173);
+  }

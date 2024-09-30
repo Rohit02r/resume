@@ -1,15 +1,39 @@
+import React from 'react';
+import Navbar from './components/Navbar';
+import Profile from './components/Profile';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Skills from './components/Skills'
+import './App.css';
+import Certifications from './components/Certifications';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'aos/dist/aos.css';
-import AOS from 'aos';
-import { useEffect } from 'react';
-import Resume from './Resume';
+
 
 function App() {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
-
-  return <Resume />;
+  return (
+    <div className="App">
+      <Navbar />
+      <section id="profile">
+        <Profile />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="Skills">
+        <Skills />
+      </section>
+      <section id="projects">
+        <Projects />
+      </section>
+      <section id="Certifications">
+        <Certifications />
+      </section>
+      <section id="Contact">
+        <Contact />
+      </section>
+    </div>
+  );
 }
 
 export default App;

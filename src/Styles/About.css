@@ -1,0 +1,14 @@
+.about {
+  padding: 20px;
+  text-align: center;
+}
+
+.about h2 {
+  color: blueviolet;
+}
+
+.about p {
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
