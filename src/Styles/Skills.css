@@ -2,6 +2,7 @@
     
     padding: 20px;
     text-align: center;
+    
   }
   
   .skills h2 {
@@ -29,7 +30,7 @@
   }
   
   .sl {
-    margin: 20px 0;
+    margin: 20px 0px;
     font-weight: 500;
   }
   
@@ -40,3 +41,10 @@
     background-color: white; 
   }
   
+  @media (max-width:786) {
+    #ss {
+     margin: 0 30px; 
+    
+    }
+    
+  }

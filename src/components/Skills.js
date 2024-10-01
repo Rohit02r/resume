@@ -34,8 +34,8 @@ const Skills = () => {
       <Row>
         {skills.map((skillCategory, index) => (
           <Col md={3} key={index} className="mb-4">
-            <Card data-aos="fade-up" className="h-100 bg-black ">
-              <Card.Body className="bg-black rounded text-white card">
+            <Card data-aos="fade-up" className="h-100 bg-black " >
+              <Card.Body className="bg-black rounded text-white card ">
                 <Card.Title className="text-white fw-bold">{skillCategory.category}</Card.Title>
                 <hr />
                 <ul className="list-unstyled">
