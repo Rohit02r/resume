@@ -21,7 +21,7 @@ const Certifications = () => {
           {certificationsData.map((certification, index) => (
             <li key={index} className="certification-item">
               <span>{certification.title}</span>
-              {/* Check if the certification has a link and is not the first one */}
+             
               {certification.link && index !== 0 && (
                 <a 
                   href={certification.link} 

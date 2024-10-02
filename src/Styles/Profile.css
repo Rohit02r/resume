@@ -19,7 +19,8 @@
   }
   
   .bt{
-    padding: 5px 20px 3px 20px;
+    text-decoration: none;
+    padding: 5px 20px 2px 20px;
     border: 2px solid blueviolet;
     background-color: blueviolet;
     border-radius: 15px;
@@ -29,4 +30,9 @@
 
   .bt:hover{
     background-color: rgb(108, 39, 173);
+  }
+
+  .ad{
+    text-decoration: none;
+    color: white;
   }

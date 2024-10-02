@@ -3,7 +3,7 @@ import '../Styles/Profile.css';
 import Prop from '../assets/Profile.jpg'
 import ReactTypingEffect from 'react-typing-effect';
 
-import resumePDF from '../assets/RohitR_2024_B_E_EEE_FrontEnd_Developer_Velachery1.pdf'; // Ensure your resume is placed in 'src/assets/'
+import resumePDF from '../assets/RohitR_2023_BE_EEE_FrontEnd_Developer_Velachery.pdf'; 
 
 const Profile = () => {
   return (
@@ -18,9 +18,9 @@ const Profile = () => {
         eraseDelay={2000}
         typingDelay={1000}
       /><br/><br/>
-      <button href={resumePDF} download="Rohit_Resume" className="bt">
+      <button className="bt"><a href={resumePDF} download="Rohit_Resume" className='ad'>
         <h5 >Download Resume</h5>
-      </button>
+      </a></button>
     </div>
   );
 }

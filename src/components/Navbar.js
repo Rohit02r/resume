@@ -9,6 +9,7 @@ const Navbar = () => {
   };
 
   return (
+    <div className='navb'>
     <nav className="navbar">
       <h2 className="logo fs-3">Rohit R's Portfolio</h2>
       <div className={`nav-links ${isOpen ? 'open' : ''}`}>
@@ -25,6 +26,7 @@ const Navbar = () => {
         <span className="bar"></span>
       </div>
     </nav>
+    </div>
   );
 }
 

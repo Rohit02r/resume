@@ -1,11 +1,4 @@
-.navbar {
-  background-color: #333;
-  color: white;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 
 .logo {
   margin: 5px 15px;
@@ -51,14 +44,17 @@
   width: 100%; 
 }
 
-/* General styling for the navbar */
+
 .navbar {
+  position: sticky;
+  top: 0%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #070707;
   color: white;
+  z-index: 99;
 }
 
 .logo {
@@ -97,10 +93,14 @@
   margin: 3px 0;
   transition: all 0.3s ease;
 }
-
+.navb{
+  position: sticky;
+  top: 0%;
+  z-index: 999;
+}
 @media (max-width: 768px) {
   .nav-links ul {
-    /* Initially hide the menu and set up for the collapse animation */
+    
     max-height: 0;
     overflow: hidden;
     display: flex;
@@ -109,18 +109,18 @@
     top: 50px;
     right: 10px;
     left: 6px;
-    background-color: #333;
+    background-color: #080808;
     border-radius: 5px;
-    padding: 0; /* Reset padding initially */
+    padding: 0; 
     width: 97%;
-    transition: max-height 0.3s ease; /* Animating the height */
+    transition: max-height 0.3s ease; 
     z-index: 99;
   }
 
-  /* When open, allow the menu to fully expand */
+ 
   .nav-links.open ul {
-    max-height: 500px; /* Adjust based on content height */
-    padding: 20px; /* Add padding when expanded */
+    max-height: 500px; 
+    padding: 20px; 
   }
 
   .nav-links ul li {
@@ -129,5 +129,9 @@
 
   .hamburger {
     display: flex;
+  }
+  .navbar{
+    position: sticky;
+    top: 0%;
   }
 }

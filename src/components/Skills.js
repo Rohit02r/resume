@@ -16,7 +16,7 @@ const Skills = () => {
     },
     {
       category: 'Programming Language',
-      items: ['JavaScript', 'MySQL', 'Java']
+      items: ['JavaScript', 'MySQL', 'Python']
     },
     {
       category: 'Libraries and Tools',
