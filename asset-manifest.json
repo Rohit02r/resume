@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.492982b1.css",
-    "main.js": "/resume/static/js/main.391e63f1.js",
+    "main.css": "/resume/static/css/main.c09657ba.css",
+    "main.js": "/resume/static/js/main.0d7ee628.js",
     "static/js/453.f19e9853.chunk.js": "/resume/static/js/453.f19e9853.chunk.js",
     "static/media/Profile.jpg": "/resume/static/media/Profile.e5b43d36415b31ade4ff.jpg",
     "static/media/abc.png": "/resume/static/media/abc.e132b9764ffd4c329378.png",
     "static/media/dgd.png": "/resume/static/media/dgd.1cb3cd564a50318dc10e.png",
-    "static/media/RohitR_2024_B_E_EEE_FrontEnd_Developer_Velachery1.pdf": "/resume/static/media/RohitR_2024_B_E_EEE_FrontEnd_Developer_Velachery1.ad6dd9de34dd4f6c16fe.pdf",
+    "static/media/RohitR_2023_BE_EEE_FrontEnd_Developer_Velachery.pdf": "/resume/static/media/RohitR_2023_BE_EEE_FrontEnd_Developer_Velachery.adcdfec559c4dd6c938e.pdf",
     "static/media/skdental.png": "/resume/static/media/skdental.31afae9496e1cc90873d.png",
     "index.html": "/resume/index.html",
-    "main.492982b1.css.map": "/resume/static/css/main.492982b1.css.map",
-    "main.391e63f1.js.map": "/resume/static/js/main.391e63f1.js.map",
+    "main.c09657ba.css.map": "/resume/static/css/main.c09657ba.css.map",
+    "main.0d7ee628.js.map": "/resume/static/js/main.0d7ee628.js.map",
     "453.f19e9853.chunk.js.map": "/resume/static/js/453.f19e9853.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.492982b1.css",
-    "static/js/main.391e63f1.js"
+    "static/css/main.c09657ba.css",
+    "static/js/main.0d7ee628.js"
   ]
 }
