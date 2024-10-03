@@ -11,6 +11,7 @@
   
  
   .card {
+   
     border: none; 
     box-shadow: none; 
     transition: transform 0.3s ease; 
@@ -30,7 +31,7 @@
   }
   
   .sl {
-    margin: 20px 0px;
+    margin: 20px 20px;
     font-weight: 500;
   }
   
@@ -48,3 +49,6 @@
     }
     
   }
+ .cs{
+  margin: 0 20px;
+ }

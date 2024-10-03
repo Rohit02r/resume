@@ -18,17 +18,18 @@ const Projects = () => {
       description: 'Built with React, Bootstrap, and Bootstrap-Toaster, The Dogs Den is your go-to app for buying and selling dogs effortlessly',
       link: 'https://rohit02r.github.io/dogsden/',
     },
+    {image:sk,
+      name: 'Sk Dental',
+      description: 'Developed using React, Bootstrap, SK Dental offers a seamless experience for managing dental appointments and services.',
+      link: 'https://rohit02r.github.io/skdental/',
+    },
     {
       image:abcd,
       name: 'ABCD Dance Academy',
       description: 'A responsive , user-friendly Dance Academy website with attractive UI. Which is done using HTML, CSS, JavaScript, and Bootstrap.',
       link: 'https://rohit02r.github.io/ABCDdanceAcademy/',
     },
-    {image:sk,
-      name: 'Resume',
-      description: 'Developed using React, Bootstrap, SK Dental offers a seamless experience for managing dental appointments and services.',
-      link: 'https://rohit02r.github.io/skdental/',
-    },
+    
   ];
 
   return (

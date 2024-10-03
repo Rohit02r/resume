@@ -21,11 +21,8 @@ const Skills = () => {
     {
       category: 'Libraries and Tools',
       items: ['Bootstrap - 5', 'React.js', 'Redux', 'Git']
-    },
-    {
-      category: 'Database',
-      items: ['MongoDB']
     }
+    
   ];
 
   return (
@@ -33,8 +30,8 @@ const Skills = () => {
       <h2 className='mb-4'>Skills</h2>
       <Row>
         {skills.map((skillCategory, index) => (
-          <Col md={3} key={index} className="mb-4">
-            <Card data-aos="fade-up" className="h-100 bg-black " >
+          <Col md={4} key={index} className="mb-4 ">
+            <Card data-aos="fade-up" className="h-100 bg-black cs" >
               <Card.Body className="bg-black rounded text-white card ">
                 <Card.Title className="text-white fw-bold">{skillCategory.category}</Card.Title>
                 <hr />
