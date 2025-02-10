@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.ddea9ba9.css",
+    "main.js": "/resume/static/js/main.a2085755.js",
+    "static/js/453.f19e9853.chunk.js": "/resume/static/js/453.f19e9853.chunk.js",
+    "static/media/Profile.jpg": "/resume/static/media/Profile.e5b43d36415b31ade4ff.jpg",
+    "static/media/Rohit_R_Resume_Django_FullStack_Developer.pdf": "/resume/static/media/Rohit_R_Resume_Django_FullStack_Developer.783dcd0c7a4e70b9c467.pdf",
+    "index.html": "/resume/index.html",
+    "main.ddea9ba9.css.map": "/resume/static/css/main.ddea9ba9.css.map",
+    "main.a2085755.js.map": "/resume/static/js/main.a2085755.js.map",
+    "453.f19e9853.chunk.js.map": "/resume/static/js/453.f19e9853.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddea9ba9.css",
+    "static/js/main.a2085755.js"
+  ]
+}
