@@ -1,0 +1,58 @@
+html {
+  scroll-behavior: smooth;
+  
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+}
+
+.App {
+  text-align: center;
+  background-color: rgb(34, 32, 32);
+  color: white;
+}
+
+h1,h2,h3,h4{
+  color: blueviolet;
+}
+
+.projects {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.projects-title {
+  text-shadow: none !important;
+  color: blueviolet !important;
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.projects-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.project-item {
+  text-align: left;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.project-name {
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+.project-description {
+  font-size: 16px;
+  color: white;
+}
